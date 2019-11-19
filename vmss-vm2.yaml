@@ -1,0 +1,107 @@
+additionalCapabilities: null
+availabilitySet: null
+billingProfile: null
+diagnosticsProfile: null
+evictionPolicy: null
+hardwareProfile:
+  vmSize: Standard_B1s
+host: null
+id: /subscriptions/4c978fe2-f401-4d93-917c-3af86b3600af/resourceGroups/pog-zcp-aks/providers/Microsoft.Compute/virtualMachines/vmss-vm2
+identity: null
+instanceView:
+  bootDiagnostics: null
+  computerName: vmss-vm2
+  disks:
+  - encryptionSettings: null
+    name: vmss-vm2_OsDisk_1_9c98430b37a040bdab9e6bed0ab1b447
+    statuses:
+    - code: ProvisioningState/succeeded
+      displayStatus: Provisioning succeeded
+      level: Info
+      message: null
+      time: '2019-11-19T15:10:41.089807+00:00'
+  extensions: null
+  hyperVgeneration: V1
+  maintenanceRedeployStatus: null
+  osName: ubuntu
+  osVersion: '18.04'
+  platformFaultDomain: 0
+  platformUpdateDomain: 0
+  rdpThumbPrint: null
+  statuses:
+  - code: ProvisioningState/succeeded
+    displayStatus: Provisioning succeeded
+    level: Info
+    message: null
+    time: '2019-11-19T15:11:37.607360+00:00'
+  - code: PowerState/running
+    displayStatus: VM running
+    level: Info
+    message: null
+    time: null
+  vmAgent:
+    extensionHandlers: []
+    statuses:
+    - code: ProvisioningState/succeeded
+      displayStatus: Ready
+      level: Info
+      message: Guest Agent is running
+      time: '2019-11-19T15:13:53+00:00'
+    vmAgentVersion: 2.2.45
+licenseType: null
+location: koreacentral
+name: vmss-vm2
+networkProfile:
+  networkInterfaces:
+  - id: /subscriptions/4c978fe2-f401-4d93-917c-3af86b3600af/resourceGroups/pog-zcp-aks/providers/Microsoft.Network/networkInterfaces/vmss-vm2297
+    primary: null
+    resourceGroup: pog-zcp-aks
+osProfile:
+  adminPassword: null
+  adminUsername: ssang276
+  allowExtensionOperations: true
+  computerName: vmss-vm2
+  customData: null
+  linuxConfiguration:
+    disablePasswordAuthentication: false
+    provisionVmAgent: true
+    ssh: null
+  requireGuestProvisionSignal: true
+  secrets: []
+  windowsConfiguration: null
+plan: null
+priority: null
+provisioningState: Succeeded
+proximityPlacementGroup: null
+resourceGroup: pog-zcp-aks
+resources: null
+storageProfile:
+  dataDisks: []
+  imageReference:
+    id: null
+    offer: UbuntuServer
+    publisher: Canonical
+    sku: 18.04-LTS
+    version: latest
+  osDisk:
+    caching: ReadWrite
+    createOption: FromImage
+    diffDiskSettings: null
+    diskSizeGb: 30
+    encryptionSettings: null
+    image: null
+    managedDisk:
+      id: /subscriptions/4c978fe2-f401-4d93-917c-3af86b3600af/resourceGroups/pog-zcp-aks/providers/Microsoft.Compute/disks/vmss-vm2_OsDisk_1_9c98430b37a040bdab9e6bed0ab1b447
+      resourceGroup: pog-zcp-aks
+      storageAccountType: Standard_LRS
+    name: vmss-vm2_OsDisk_1_9c98430b37a040bdab9e6bed0ab1b447
+    osType: Linux
+    vhd: null
+    writeAcceleratorEnabled: null
+tags: null
+type: Microsoft.Compute/virtualMachines
+virtualMachineScaleSet:
+  id: /subscriptions/4c978fe2-f401-4d93-917c-3af86b3600af/resourceGroups/pog-zcp-aks/providers/Microsoft.Compute/virtualMachineScaleSets/vmss
+  resourceGroup: pog-zcp-aks
+vmId: d956c823-e508-40a8-8b7c-b5b7950022ec
+zones: null
