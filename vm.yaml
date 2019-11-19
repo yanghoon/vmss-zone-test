@@ -1,0 +1,134 @@
+{
+  "additionalCapabilities": null,
+  "availabilitySet": null,
+  "billingProfile": null,
+  "diagnosticsProfile": null,
+  "evictionPolicy": null,
+  "hardwareProfile": {
+    "vmSize": "Standard_B1s"
+  },
+  "host": null,
+  "id": "/subscriptions/4c978fe2-f401-4d93-917c-3af86b3600af/resourceGroups/pog-zcp-aks/providers/Microsoft.Compute/virtualMachines/vm-zone-check",
+  "identity": null,
+  "instanceView": {
+    "bootDiagnostics": null,
+    "computerName": "vm-zone-check",
+    "disks": [
+      {
+        "encryptionSettings": null,
+        "name": "vm-zone-check_OsDisk_1_d9a93ead2a544128bb8138db6e7c01fc",
+        "statuses": [
+          {
+            "code": "ProvisioningState/succeeded",
+            "displayStatus": "Provisioning succeeded",
+            "level": "Info",
+            "message": null,
+            "time": "2019-11-19T13:10:11.323893+00:00"
+          }
+        ]
+      }
+    ],
+    "extensions": null,
+    "hyperVgeneration": "V1",
+    "maintenanceRedeployStatus": null,
+    "osName": "ubuntu",
+    "osVersion": "18.04",
+    "platformFaultDomain": null,
+    "platformUpdateDomain": null,
+    "rdpThumbPrint": null,
+    "statuses": [
+      {
+        "code": "ProvisioningState/succeeded",
+        "displayStatus": "Provisioning succeeded",
+        "level": "Info",
+        "message": null,
+        "time": "2019-11-19T13:11:03.435373+00:00"
+      },
+      {
+        "code": "PowerState/running",
+        "displayStatus": "VM running",
+        "level": "Info",
+        "message": null,
+        "time": null
+      }
+    ],
+    "vmAgent": {
+      "extensionHandlers": [],
+      "statuses": [
+        {
+          "code": "ProvisioningState/succeeded",
+          "displayStatus": "Ready",
+          "level": "Info",
+          "message": "Guest Agent is running",
+          "time": "2019-11-19T14:33:35+00:00"
+        }
+      ],
+      "vmAgentVersion": "2.2.45"
+    }
+  },
+  "licenseType": null,
+  "location": "koreacentral",
+  "name": "vm-zone-check",
+  "networkProfile": {
+    "networkInterfaces": [
+      {
+        "id": "/subscriptions/4c978fe2-f401-4d93-917c-3af86b3600af/resourceGroups/pog-zcp-aks/providers/Microsoft.Network/networkInterfaces/vm-zone-check893",
+        "primary": null,
+        "resourceGroup": "pog-zcp-aks"
+      }
+    ]
+  },
+  "osProfile": {
+    "adminPassword": null,
+    "adminUsername": "ssang276",
+    "allowExtensionOperations": true,
+    "computerName": "vm-zone-check",
+    "customData": null,
+    "linuxConfiguration": {
+      "disablePasswordAuthentication": false,
+      "provisionVmAgent": true,
+      "ssh": null
+    },
+    "requireGuestProvisionSignal": true,
+    "secrets": [],
+    "windowsConfiguration": null
+  },
+  "plan": null,
+  "priority": null,
+  "provisioningState": "Succeeded",
+  "proximityPlacementGroup": null,
+  "resourceGroup": "pog-zcp-aks",
+  "resources": null,
+  "storageProfile": {
+    "dataDisks": [],
+    "imageReference": {
+      "id": null,
+      "offer": "UbuntuServer",
+      "publisher": "Canonical",
+      "sku": "18.04-LTS",
+      "version": "latest"
+    },
+    "osDisk": {
+      "caching": "ReadWrite",
+      "createOption": "FromImage",
+      "diffDiskSettings": null,
+      "diskSizeGb": 30,
+      "encryptionSettings": null,
+      "image": null,
+      "managedDisk": {
+        "id": "/subscriptions/4c978fe2-f401-4d93-917c-3af86b3600af/resourceGroups/pog-zcp-aks/providers/Microsoft.Compute/disks/vm-zone-check_OsDisk_1_d9a93ead2a544128bb8138db6e7c01fc",
+        "resourceGroup": "pog-zcp-aks",
+        "storageAccountType": "Standard_LRS"
+      },
+      "name": "vm-zone-check_OsDisk_1_d9a93ead2a544128bb8138db6e7c01fc",
+      "osType": "Linux",
+      "vhd": null,
+      "writeAcceleratorEnabled": null
+    }
+  },
+  "tags": null,
+  "type": "Microsoft.Compute/virtualMachines",
+  "virtualMachineScaleSet": null,
+  "vmId": "4b5d1845-7ff6-4e8b-888a-8730ec7da50d",
+  "zones": null
+}

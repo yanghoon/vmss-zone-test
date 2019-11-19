@@ -1,0 +1,78 @@
+- bootDiagnostics: null
+  computerName: aks-agentpool-28437317-vmss000000
+  disks:
+  - encryptionSettings: null
+    name: aks-agentpool-284373aks-agentpool-2843731OS__1_4ad283d7927a449b94f0ecdd6a5f2a39
+    statuses:
+    - code: ProvisioningState/succeeded
+      displayStatus: Provisioning succeeded
+      level: Info
+      message: null
+      time: '2019-11-19T10:31:54.250534+00:00'
+  extensions:
+  - name: vmssCSE
+    statuses:
+    - code: ProvisioningState/succeeded
+      displayStatus: Provisioning succeeded
+      level: Info
+      message: "Enable succeeded: \n[stdout]\nTue Nov 19 10:33:14 UTC 2019,aks-agentpool-28437317-vmss000000\n\
+        \n[stderr]\nConnection to aksrepos.azurecr.io 443 port [tcp/https] succeeded!\n"
+      time: null
+    substatuses: null
+    type: Microsoft.Azure.Extensions.CustomScript
+    typeHandlerVersion: 2.1.2
+  - name: aks-agentpool-28437317-vmss-AKSLinuxBilling
+    statuses:
+    - code: ProvisioningState/succeeded
+      displayStatus: Provisioning succeeded
+      level: Info
+      message: Enabled successfully
+      time: null
+    substatuses: null
+    type: Microsoft.AKS.Compute.AKS.Linux.Billing
+    typeHandlerVersion: 1.0.0
+  hyperVGeneration: V1
+  maintenanceRedeployStatus: null
+  osName: ubuntu
+  osVersion: '16.04'
+  placementGroupId: 9ada8a23-adb0-431d-b8cf-e3151bbf7207
+  platformFaultDomain: 0
+  platformUpdateDomain: 0
+  rdpThumbPrint: null
+  statuses:
+  - code: ProvisioningState/succeeded
+    displayStatus: Provisioning succeeded
+    level: Info
+    message: null
+    time: '2019-11-19T10:34:00.740105+00:00'
+  - code: PowerState/running
+    displayStatus: VM running
+    level: Info
+    message: null
+    time: null
+  vmAgent:
+    extensionHandlers:
+    - status:
+        code: ProvisioningState/succeeded
+        displayStatus: Ready
+        level: Info
+        message: Plugin enabled
+        time: null
+      type: Microsoft.Azure.Extensions.CustomScript
+      typeHandlerVersion: 2.1.2
+    - status:
+        code: ProvisioningState/succeeded
+        displayStatus: Ready
+        level: Info
+        message: Plugin enabled
+        time: null
+      type: Microsoft.AKS.Compute.AKS.Linux.Billing
+      typeHandlerVersion: 1.0.0
+    statuses:
+    - code: ProvisioningState/succeeded
+      displayStatus: Ready
+      level: Info
+      message: Guest Agent is running
+      time: '2019-11-19T14:33:13+00:00'
+    vmAgentVersion: 2.2.45
+  vmHealth: null
