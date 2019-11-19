@@ -1,0 +1,106 @@
+additionalCapabilities: null
+availabilitySet: null
+billingProfile: null
+diagnosticsProfile: null
+evictionPolicy: null
+hardwareProfile:
+  vmSize: Standard_B1s
+host: null
+id: /subscriptions/4c978fe2-f401-4d93-917c-3af86b3600af/resourceGroups/pog-zcp-aks/providers/Microsoft.Compute/virtualMachines/vm-zone-check-az1
+identity: null
+instanceView:
+  bootDiagnostics: null
+  computerName: vm-zone-check-az1
+  disks:
+  - encryptionSettings: null
+    name: vm-zone-check-az1_OsDisk_1_a83bc1d384674842ad7ecc28e04978fc
+    statuses:
+    - code: ProvisioningState/succeeded
+      displayStatus: Provisioning succeeded
+      level: Info
+      message: null
+      time: '2019-11-19T14:43:56.385628+00:00'
+  extensions: null
+  hyperVgeneration: V1
+  maintenanceRedeployStatus: null
+  osName: ubuntu
+  osVersion: '18.04'
+  platformFaultDomain: null
+  platformUpdateDomain: null
+  rdpThumbPrint: null
+  statuses:
+  - code: ProvisioningState/succeeded
+    displayStatus: Provisioning succeeded
+    level: Info
+    message: null
+    time: '2019-11-19T14:44:51.965172+00:00'
+  - code: PowerState/running
+    displayStatus: VM running
+    level: Info
+    message: null
+    time: null
+  vmAgent:
+    extensionHandlers: []
+    statuses:
+    - code: ProvisioningState/succeeded
+      displayStatus: Ready
+      level: Info
+      message: Guest Agent is running
+      time: '2019-11-19T14:47:07+00:00'
+    vmAgentVersion: 2.2.45
+licenseType: null
+location: japaneast
+name: vm-zone-check-az1
+networkProfile:
+  networkInterfaces:
+  - id: /subscriptions/4c978fe2-f401-4d93-917c-3af86b3600af/resourceGroups/pog-zcp-aks/providers/Microsoft.Network/networkInterfaces/vm-zone-check-az1239
+    primary: null
+    resourceGroup: pog-zcp-aks
+osProfile:
+  adminPassword: null
+  adminUsername: ssang276
+  allowExtensionOperations: true
+  computerName: vm-zone-check-az1
+  customData: null
+  linuxConfiguration:
+    disablePasswordAuthentication: false
+    provisionVmAgent: true
+    ssh: null
+  requireGuestProvisionSignal: true
+  secrets: []
+  windowsConfiguration: null
+plan: null
+priority: null
+provisioningState: Succeeded
+proximityPlacementGroup: null
+resourceGroup: pog-zcp-aks
+resources: null
+storageProfile:
+  dataDisks: []
+  imageReference:
+    id: null
+    offer: UbuntuServer
+    publisher: Canonical
+    sku: 18.04-LTS
+    version: latest
+  osDisk:
+    caching: ReadWrite
+    createOption: FromImage
+    diffDiskSettings: null
+    diskSizeGb: 30
+    encryptionSettings: null
+    image: null
+    managedDisk:
+      id: /subscriptions/4c978fe2-f401-4d93-917c-3af86b3600af/resourceGroups/pog-zcp-aks/providers/Microsoft.Compute/disks/vm-zone-check-az1_OsDisk_1_a83bc1d384674842ad7ecc28e04978fc
+      resourceGroup: pog-zcp-aks
+      storageAccountType: Standard_LRS
+    name: vm-zone-check-az1_OsDisk_1_a83bc1d384674842ad7ecc28e04978fc
+    osType: Linux
+    vhd: null
+    writeAcceleratorEnabled: null
+tags: null
+type: Microsoft.Compute/virtualMachines
+virtualMachineScaleSet: null
+vmId: 782a3ee5-3efd-45a2-af3c-1885d59eedf5
+zones:
+- '1'
