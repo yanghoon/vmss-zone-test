@@ -1,0 +1,25 @@
+bootDiagnostics: null
+disks:
+- encryptionSettings: null
+  name: vmss002_vmss002_0_OsDisk_1_81c26c7cc4e742f3aea5ba042043869c
+  statuses:
+  - code: ProvisioningState/deleting
+    displayStatus: Deleting
+    level: Info
+    message: null
+    time: null
+extensions: null
+hyperVGeneration: V1
+maintenanceRedeployStatus: null
+placementGroupId: 020f7376-0753-4fd6-bf99-a36ecf178988
+platformFaultDomain: 0
+platformUpdateDomain: 0
+rdpThumbPrint: null
+statuses:
+- code: ProvisioningState/deleting
+  displayStatus: Deleting
+  level: Info
+  message: null
+  time: null
+vmAgent: null
+vmHealth: null
