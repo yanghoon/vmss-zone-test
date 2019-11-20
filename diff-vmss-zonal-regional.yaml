@@ -1,0 +1,50 @@
+# az vmss show -g pog-zcp-aks -n vmss002 --query '{platformFaultDomainCount: platformFaultDomainCount, singlePlacementGroup: singlePlacementGroup, zones: zones}' -o yaml
+platformFaultDomainCount: 5
+singlePlacementGroup: true
+zones: null
+# az vmss get-instance-view -g pog-zcp-aks -n vmss002 --instance-id "*" --query '[*].{Name: computerName, FD: platformFaultDomain, UD: platformUpdateDomain}' -o yaml
+- FD: 0
+  Name: vmss002sv000000
+  UD: 0
+- FD: 1
+  Name: null
+  UD: 1
+- FD: 3
+  Name: vmss002sv000003
+  UD: 3
+- FD: 0
+  Name: vmss002sv000005
+  UD: 1
+- FD: 1
+  Name: vmss002sv000006
+  UD: 2
+- FD: 3
+  Name: null
+  UD: 4
+
+# az vmss show -g pog-zcp-aks -n vmss003 --query '{platformFaultDomainCount: platformFaultDomainCount, singlePlacementGroup: singlePlacementGroup, zones: zones}' -o yaml
+platformFaultDomainCount: 1
+singlePlacementGroup: false
+zones:
+- '1'
+- '2'
+- '3'
+# az vmss get-instance-view -g pog-zcp-aks -n vmss003 --instance-id "*" --query '[*].{Name: computerName, FD: platformFaultDomain, UD: platformUpdateDomain}' -o yaml
+- FD: 0
+  Name: null
+  UD: null
+- FD: 0
+  Name: vmss003sv000004
+  UD: null
+- FD: 0
+  Name: null
+  UD: null
+- FD: 0
+  Name: null
+  UD: null
+- FD: 0
+  Name: vmss003sv000007
+  UD: null
+- FD: 0
+  Name: null
+  UD: null
