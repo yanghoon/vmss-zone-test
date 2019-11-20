@@ -1,0 +1,92 @@
+additionalCapabilities: null
+availabilitySet: null
+diagnosticsProfile: null
+hardwareProfile:
+  vmSize: null
+id: /subscriptions/4c978fe2-f401-4d93-917c-3af86b3600af/resourceGroups/pog-zcp-aks/providers/Microsoft.Compute/virtualMachineScaleSets/vmss002/virtualMachines/0
+instanceId: '0'
+instanceView: null
+latestModelApplied: true
+licenseType: null
+location: koreacentral
+modelDefinitionApplied: VirtualMachineScaleSet
+name: vmss002_0
+networkProfile:
+  networkInterfaces:
+  - id: /subscriptions/4c978fe2-f401-4d93-917c-3af86b3600af/resourceGroups/pog-zcp-aks/providers/Microsoft.Compute/virtualMachineScaleSets/vmss002/virtualMachines/0/networkInterfaces/vmss002Nic
+    primary: null
+    resourceGroup: pog-zcp-aks
+networkProfileConfiguration:
+  networkInterfaceConfigurations:
+  - dnsSettings:
+      dnsServers: []
+    enableAcceleratedNetworking: false
+    enableIpForwarding: false
+    id: null
+    ipConfigurations:
+    - applicationGatewayBackendAddressPools: null
+      applicationSecurityGroups: null
+      id: null
+      loadBalancerBackendAddressPools: null
+      loadBalancerInboundNatPools: null
+      name: vmss002IpConfig
+      primary: null
+      privateIpAddressVersion: IPv4
+      publicIpAddressConfiguration: null
+      subnet:
+        id: /subscriptions/4c978fe2-f401-4d93-917c-3af86b3600af/resourceGroups/pog-zcp-aks/providers/Microsoft.Network/virtualNetworks/vmss002/subnets/default
+        resourceGroup: pog-zcp-aks
+    name: vmss002Nic
+    networkSecurityGroup: null
+    primary: true
+osProfile:
+  adminPassword: null
+  adminUsername: ssang276
+  allowExtensionOperations: true
+  computerName: vmss002sv000000
+  customData: null
+  linuxConfiguration: null
+  requireGuestProvisionSignal: true
+  secrets: []
+  windowsConfiguration:
+    additionalUnattendContent: null
+    enableAutomaticUpdates: true
+    provisionVmAgent: true
+    timeZone: null
+    winRm: null
+plan: null
+protectionPolicy: null
+provisioningState: Creating
+resourceGroup: pog-zcp-aks
+resources: null
+sku:
+  capacity: null
+  name: Standard_B1ls
+  tier: Standard
+storageProfile:
+  dataDisks: []
+  imageReference:
+    id: null
+    offer: WindowsServer
+    publisher: MicrosoftWindowsServer
+    sku: 2016-Datacenter
+    version: 14393.3274.1910061629
+  osDisk:
+    caching: ReadWrite
+    createOption: FromImage
+    diffDiskSettings: null
+    diskSizeGb: 127
+    encryptionSettings: null
+    image: null
+    managedDisk:
+      id: /subscriptions/4c978fe2-f401-4d93-917c-3af86b3600af/resourceGroups/pog-zcp-aks/providers/Microsoft.Compute/disks/vmss002_vmss002_0_OsDisk_1_81c26c7cc4e742f3aea5ba042043869c
+      resourceGroup: pog-zcp-aks
+      storageAccountType: Premium_LRS
+    name: vmss002_vmss002_0_OsDisk_1_81c26c7cc4e742f3aea5ba042043869c
+    osType: Windows
+    vhd: null
+    writeAcceleratorEnabled: null
+tags: null
+type: Microsoft.Compute/virtualMachineScaleSets/virtualMachines
+vmId: 84711c65-105c-4cb5-af0f-f43305deb02e
+zones: null
